@@ -42,32 +42,21 @@
                     </tr>
                 </tfoot>
                 <tbody>
+                    <?php foreach ($news_list as $news_item): ?>
                     <tr>
-                        <td>Tiger Nixon</td>
-                        <td class="text-center"><img src="<?= base_url("assets") ?>/image_uploaded/dummy.png" class="img-thumbnail w-25" alt=""></td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
-                        <td>61</td>
-                        <td>2011/04/25</td>
-                        <td>$320,800</td>
+                        <td><?= $news_item->title; ?></td>
+                        <td class="text-center"><img src="<?= base_url("assets") ?>/image_uploaded/<?= $news_item->image ?>" class="img-thumbnail w-25" alt=""></td>
+                        <td><?= $news_item->description ?></td>
+                        <td><?= $news_item->tags ?></td>
+                        <td><?= $news_item->author ?></td>
+                        <td><?= date('m/d/Y', $news_item->create_at)  ?></td>
+                        <td><?= date('m/d/Y', $news_item->update_at)  ?></td>
                         <td>
                             <a href="">Edit</a>
                             <a href="">Delete</a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td class="text-center"><img src="<?= base_url("assets") ?>/image_uploaded/dummy.png" class="img-thumbnail w-25" alt=""></td>
-                        <td>Tokyo</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td>2011/07/25</td>
-                        <td>$170,750</td>
-                        <td>
-                             <a href="">Edit</a>
-                                <a href="">Delete</a>
-                        </td>
-                    </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
         </div>
