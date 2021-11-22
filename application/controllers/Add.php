@@ -10,6 +10,9 @@ class Add extends CI_Controller {
 		$this->load->view('layouts/topbar', $data);
     $this->load->view('pages/add/index');
     $this->load->view('layouts/footer', $data);
+
+    // $this->News_model->addNewsData();
+    // redirect('news');
   }
 }
 ?>

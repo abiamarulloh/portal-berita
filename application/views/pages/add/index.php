@@ -9,74 +9,35 @@
 <body>
   <div class="container-fluid">
   <h3>Add News</h3>
-  <form action="" method="post">
-    <table >
-      <tr>
-        <td>
-          <label for="title">Title</label>
-        </td>
-        <td>:</td>
-        <td>
-          <input type="text" name='title' required>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="image">Image</label>
-        </td>    
-        <td>:</td>
-        <td>
-        <input type="file" required>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="description">Description</label>
-        </td>
-        <td>:</td>
-        <td>
-        <input type="text">
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="tags">Tags</label>
-        </td>
-        <td>:</td>
-        <td>
-        <input type="text">
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="author">Author</label>
-        </td>
-        <td>:</td>
-        <td>
-        <input type="text">
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="start-date">Start Date</label>
-        </td>
-        <td>:</td>
-        <td>
-        <input type="text">
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label for="update-date">Update Date</label>
-        </td>
-        <td>:</td>
-        <td>
-        <input type="text">
-        </td>
-      </tr>
-    </table>
-    <button class='button btn-primary'>Submit</button>
-  </form>
+
+  <form>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title">
+  </div>
+  <div class="form-group">
+    <label for="image">Image</label>
+    <input type="file" class="form-control" id="image">
+  </div>
+  <div class="form-group">
+  <label for="description">Description</label>
+        <input type="text" class="form-control" id="image">
+  </div>
+  <div class="form-group">
+  <label for="author">Author</label>
+        <input type="text" class="form-control" id="image">
+  </div>
+  <div class="form-group">
+  <label for="start-date">Start Date</label>
+        <input type="text" class="form-control" id="image">
+  </div>
+  <div class="form-group">
+  <label for="update-date">Update Date</label>
+        <input type="text" class="form-control" id="image">
+  </div>
+  <button type="submit" class="btn btn-primary float-right">Submit</button>
+  <button type="reset" class="btn btn-danger mr-3 float-right">Reset</button>
+</form>
   </div>
 </body>
 </html>
