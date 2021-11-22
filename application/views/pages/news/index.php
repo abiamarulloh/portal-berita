@@ -6,7 +6,7 @@
     <div class="card-header py-3">
       <div class="d-flex justify-content-between align-items-center">
             <h6 class="m-0 font-weight-bold text-primary">Data News</h6>
-            <a href="#" class="btn btn-primary btn-icon-split">
+            <a href="<?= base_url('add') ?>" class="btn btn-primary btn-icon-split">
                 <span class="icon text-white-50">
                     <i class="fas fa-plus"></i>
                 </span>
