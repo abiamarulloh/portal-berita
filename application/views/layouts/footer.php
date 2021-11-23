@@ -60,6 +60,17 @@
     <!-- Page level custom scripts -->
     <script src="<?= base_url("assets") ?>/js/demo/datatables-demo.js"></script>
 
+    <script>
+            ClassicEditor
+                    .create( document.querySelector('#editor'))
+                    .then( editor => {
+                            console.log( editor );
+                    } )
+                    .catch( error => {
+                            console.error( error );
+                    } );
+    </script>
+
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     <div class="card-header py-3">
       <div class="d-flex justify-content-between align-items-center">
             <h6 class="m-0 font-weight-bold text-primary">Data News</h6>
-            <a href="<?= base_url('add') ?>" class="btn btn-primary btn-icon-split">
+            <a href="<?= base_url('news/add') ?>" class="btn btn-primary btn-icon-split">
                 <span class="icon text-white-50">
                     <i class="fas fa-plus"></i>
                 </span>
@@ -50,10 +50,11 @@
                         <td><?= $news_item->tags ?></td>
                         <td><?= $news_item->author ?></td>
                         <td><?= date('m/d/Y', $news_item->create_at)  ?></td>
-                        <td><?= date('m/d/Y', $news_item->update_at)  ?></td>
+                        <td><?= $news_item->update_at > 0 ? date('m/d/Y', $news_item->update_at) : "-"  ?></td>
                         <td>
-                            <a href="">Edit</a>
-                            <a href="">Delete</a>
+                            <a href="<?= base_url('news/edit/') . $news_item->id ?>" class="badge badge-warning">Edit</a>
+                            <a href="<?= base_url('news/delete/') . $news_item->id ?>" onclick="return confirm('Yakin ingin hapus ? ')" class="badge badge-danger">Delete</a>
+                            <a href="<?= base_url('news/preview/') . $news_item->id ?>" class="badge badge-primary">Preview</a>
                         </td>
                     </tr>
                     <?php endforeach; ?>
