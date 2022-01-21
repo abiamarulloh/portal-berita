@@ -6,8 +6,15 @@ class News extends CI_Controller {
 		parent::__construct();
 		$this->load->model('News_model', 'news_model');
 	}
-	
+
 	public function index()
+	{
+		$this->load->view('_template/_header.php');
+		$this->load->view('berita/beranda.php');
+		$this->load->view('_template/_footer.php');
+	}
+	
+	public function admin()
 	{
         $data["title"] = "News - System Portal Berita";
 		$data["news_list"] = $this->news_model->all();
