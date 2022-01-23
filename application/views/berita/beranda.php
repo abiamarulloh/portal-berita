@@ -7,17 +7,17 @@
 					<div class="row tn-slider">
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-450x350-1.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-450x350-1.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-450x350-2.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-450x350-2.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Integer hendrerit elit eget purus sodales maximus</a>
+									<a href="<?= base_url(); ?>single">Integer hendrerit elit eget purus sodales maximus</a>
 								</div>
 							</div>
 						</div>
@@ -27,33 +27,33 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="tn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
@@ -73,25 +73,25 @@
 					<div class="row cn-slider">
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
@@ -102,25 +102,25 @@
 					<div class="row cn-slider">
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
@@ -140,25 +140,25 @@
 					<div class="row cn-slider">
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
@@ -169,25 +169,25 @@
 					<div class="row cn-slider">
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="cn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+								<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								<div class="cn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit</a>
 								</div>
 							</div>
 						</div>
@@ -219,78 +219,78 @@
 						<div id="featured" class="container tab-pane active">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
 						<div id="popular" class="container tab-pane fade">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
 						<div id="latest" class="container tab-pane fade">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
@@ -314,78 +314,78 @@
 						<div id="m-viewed" class="container tab-pane active">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
 						<div id="m-read" class="container tab-pane fade">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
 						<div id="m-recent" class="container tab-pane fade">
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 							<div class="tn-news">
 								<div class="tn-img">
-									<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+									<img src="<?= base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
 								</div>
 								<div class="tn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a>
+									<a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a>
 								</div>
 							</div>
 						</div>
@@ -402,78 +402,16 @@
 			<div class="row">
 				<div class="col-lg-9">
 					<div class="row">
+						<?php foreach ($news_list as $news) : ?>
 						<div class="col-md-4">
 							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
+								<img src="<?= base_url(); ?>assets/image_uploaded/<?= $news->image ?>" />
 								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
+									<a href="<?= base_url(); ?>single"><?= $news->title ?></a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-5.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-1.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-2.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-3.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="mn-img">
-								<img src="<?php base_url(); ?>assets/img/contoh/news-350x223-4.jpg" />
-								<div class="mn-title">
-									<a href="<?php base_url(); ?>single">Lorem ipsum dolor sit</a>
-								</div>
-							</div>
-						</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 
@@ -481,16 +419,16 @@
 					<div class="mn-list">
 						<h2>Read More</h2>
 						<ul>
-							<li><a href="<?php base_url(); ?>single">Lorem ipsum dolor sit amet</a></li>
-							<li><a href="<?php base_url(); ?>single">Pellentesque tincidunt enim libero</a></li>
-							<li><a href="<?php base_url(); ?>single">Morbi id finibus diam vel pretium enim</a></li>
-							<li><a href="<?php base_url(); ?>single">Duis semper sapien in eros euismod sodales</a></li>
-							<li><a href="<?php base_url(); ?>single">Vestibulum cursus lorem nibh</a></li>
-							<li><a href="<?php base_url(); ?>single">Morbi ullamcorper vulputate metus non eleifend</a></li>
-							<li><a href="<?php base_url(); ?>single">Etiam vitae elit felis sit amet</a></li>
-							<li><a href="<?php base_url(); ?>single">Nullam congue massa vitae quam</a></li>
-							<li><a href="<?php base_url(); ?>single">Proin sed ante rutrum</a></li>
-							<li><a href="<?php base_url(); ?>single">Curabitur vel lectus</a></li>
+							<li><a href="<?= base_url(); ?>single">Lorem ipsum dolor sit amet</a></li>
+							<li><a href="<?= base_url(); ?>single">Pellentesque tincidunt enim libero</a></li>
+							<li><a href="<?= base_url(); ?>single">Morbi id finibus diam vel pretium enim</a></li>
+							<li><a href="<?= base_url(); ?>single">Duis semper sapien in eros euismod sodales</a></li>
+							<li><a href="<?= base_url(); ?>single">Vestibulum cursus lorem nibh</a></li>
+							<li><a href="<?= base_url(); ?>single">Morbi ullamcorper vulputate metus non eleifend</a></li>
+							<li><a href="<?= base_url(); ?>single">Etiam vitae elit felis sit amet</a></li>
+							<li><a href="<?= base_url(); ?>single">Nullam congue massa vitae quam</a></li>
+							<li><a href="<?= base_url(); ?>single">Proin sed ante rutrum</a></li>
+							<li><a href="<?= base_url(); ?>single">Curabitur vel lectus</a></li>
 						</ul>
 					</div>
 				</div>

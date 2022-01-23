@@ -54,7 +54,7 @@
                         <td>
                             <a href="<?= base_url('news/edit/') . $news_item->id ?>" class="badge badge-warning">Edit</a>
                             <a href="<?= base_url('news/delete/') . $news_item->id ?>" onclick="return confirm('Yakin ingin hapus ? ')" class="badge badge-danger">Delete</a>
-                            <a href="<?= base_url('news/preview/') . $news_item->id ?>" class="badge badge-primary">Preview</a>
+                            <a href="<?= base_url('news/single/') . $news_item->id ?>" class="badge badge-primary">Preview</a>
                         </td>
                     </tr>
                     <?php endforeach; ?>

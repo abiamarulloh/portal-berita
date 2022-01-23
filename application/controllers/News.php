@@ -5,17 +5,23 @@ class News extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		$this->load->model('News_model', 'news_model');
+		
 	}
 
 	public function index()
 	{
-		$this->load->view('_template/_header.php');
-		$this->load->view('berita/beranda.php');
-		$this->load->view('_template/_footer.php');
+		
+		$data["news_list"] = $this->news_model->all();
+		$this->load->view('_template/_header.php', $data);
+		$this->load->view('berita/beranda.php', $data);
+		$this->load->view('_template/_footer.php', $data);
 	}
 	
 	public function admin()
 	{
+		if($this->session->userdata("isLogin") == false) {
+			redirect("auth");
+		}
         $data["title"] = "News - System Portal Berita";
 		$data["news_list"] = $this->news_model->all();
 		$this->load->view('layouts/header', $data);
@@ -27,6 +33,9 @@ class News extends CI_Controller {
 
 	public function add()
 	{
+		if($this->session->userdata("isLogin") == false) {
+			redirect("auth");
+		}
 		// get Data By Id
 		$data['new_by_id'] = [];
 
@@ -51,8 +60,8 @@ class News extends CI_Controller {
 			$config['upload_path']          = './assets/image_uploaded';
 			$config['allowed_types']        = 'gif|jpg|png|jpeg';
 			$config['max_size']             = 10000;
-			$config['max_width']            = 1024;
-			$config['max_height']           = 768;
+			$config['max_width']            = 2000;
+			$config['max_height']           = 2000;
 
 			$this->load->library('upload', $config);
 
@@ -68,13 +77,15 @@ class News extends CI_Controller {
 				];
 				$this->news_model->add($data_form);
 			}
-			redirect("news");
+			redirect("news/admin");
 		}
 	}
 
 	public function edit($id)
 	{
-
+		if($this->session->userdata("isLogin") == false) {
+			redirect("auth");
+		}
 		// get Data By Id
 		$data['new_by_id'] = $this->news_model->getById($id);
 
@@ -127,19 +138,24 @@ class News extends CI_Controller {
 				];
 				$this->news_model->update($data_form, $id);
 			}
-			redirect("news");
+			redirect("news/admin");
 		}
 	}
 
 	public function delete($id) {
+		if($this->session->userdata("isLogin") == false) {
+			redirect("auth");
+		}
 		$this->news_model->delete($id);
-		redirect("news");
+		redirect("news/admin");
 	}
 
-	public function preview($id) {
+	public function single($id) {
         $data["title"] = "Preview - System Portal Berita";
 		$data['news'] = $this->news_model->getById($id);
-		$this->load->view('pages/news/preview', $data);
+		$this->load->view('_template/_header.php', $data);
+		$this->load->view('berita/single_page', $data);
+		$this->load->view('_template/_footer.php', $data);
 	}
 
 }

@@ -27,7 +27,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="<?= base_url("news") ?>">
+        <a class="nav-link" href="<?= base_url("news/admin") ?>">
             <i class="fas fa-fw fa-newspaper"></i>
             <span>News</span></a>
     </li>

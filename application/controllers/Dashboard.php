@@ -5,6 +5,10 @@ class Dashboard extends CI_Controller {
 	
 	public function index()
 	{
+		if($this->session->userdata("isLogin") == false) {
+			redirect("auth");
+		}
+
         $data["title"] = "Dashboard - System Portal Berita";
 		$this->load->view('layouts/header', $data);
 		$this->load->view('layouts/sidebar', $data);

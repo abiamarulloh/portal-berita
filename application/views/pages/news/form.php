@@ -16,8 +16,7 @@
         </div>
         <div class="form-group">
             <label for="editor">Description</label>
-            <textarea id="editor" class="form-control" name="description" value="<?= $new_by_id ? $new_by_id->description : '' ?>">
-              <?= $new_by_id ? $new_by_id->description : '' ?>
+            <textarea id="editor" class="form-control" name="description" value="<?= $new_by_id ? $new_by_id->description : '' ?>"><?= $new_by_id ? $new_by_id->description : '' ?>
             </textarea>
           <?php echo form_error('description', '<div class="text-danger">', '</div>'); ?>
         </div>
